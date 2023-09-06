@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+//  taking rows and columns from user
+    int row,column;
+    cout<<"Enter rows :";
+    cin>>row;
+    cout<<"Enter columns :";
+    cin>>column;
+
+//    outer loop (for row)
+    for(int i=0; i<row; i++){
+//    inner loop (for star)
+    for(int j=0; j<column; j++){
+        cout<<"* ";
+    }
+    cout<<endl;
+    }
+    return 0;
+}
